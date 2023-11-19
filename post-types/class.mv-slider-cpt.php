@@ -45,13 +45,13 @@ if( ! class_exists( 'MV_Slider_Post_Type') ){
                 'Link Options',
                 array( $this, 'add_inner_meta_boxes' ),
                 'mv-slider',
-                'side'
+                'high'
             );
         }
 
         public function add_inner_meta_boxes( $post )
         {
-            
+            require_once MV_SLIDER_PATH . '/views/mv-slider_metabox.php';
         }
     }
 }
