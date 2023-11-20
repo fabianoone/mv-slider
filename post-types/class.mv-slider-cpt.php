@@ -123,6 +123,3 @@ if( ! class_exists( 'MV_Slider_Post_Type') ){
         }
     }
 }
-
-// meu teste, teste novamente
-// meu teste, teste novamente
